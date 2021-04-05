@@ -12,6 +12,7 @@ We developed a software to accelerate the establishment of state-of-the-art mach
 
 # Input dataset example
 All the example data is saved in [here](https://github.com/gengbo-genentech/Pharm-AutoML/tree/main/AutoML_package/src_autoML/examples/data)
+
 x: DataFrame, patients in rows and features in columns, missing values and categorical variables are allowed
   * eg: all the columns in the following dataframe except predicting target (column 'target' in heart dataset and column 'Biopsy' in cervical cancer dataset)
 
