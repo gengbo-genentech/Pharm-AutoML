@@ -47,7 +47,7 @@ more detail about cervical cancer dataset is [here](https://www.kaggle.com/lovea
 
 <div align=center><img src="/imgs/flow_chart_1.jpg" width="80%"></div>
 
-# Arguments of PharmAutoML
+# Arguments of Pharm-AutoML
 Please find code example in run_heart.sh or AutoML notebook.
 * `data` [String] : The dataset need to be analyzed, data csv file directory.
 * `target` [String] :  Predicting target name.
