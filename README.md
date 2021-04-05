@@ -1,4 +1,4 @@
-# Pharm-AutoML 2020
+# Pharm-AutoML
 Automatic machine learning pipeline for scientists.
 
 # Get started
@@ -9,6 +9,17 @@ conda env create -n autoMLenv -f environment.yml python=3.7
 conda activate autoMLenv
 ```
 We developed a software to accelerate the establishment of state-of-the-art machine learning classification models and extract scientific insights from these models. The first software is a python library and aimed at quickly establishing baseline model for the python coders. 
+
+1. Use in jupyter notebook (available for all operating system):
+  classification task of UCI heart dataset [(notebook)](https://github.com/gengbo-genentech/Pharm-AutoML/tree/main/AutoML_package/AutoML_notebook_breast_imputation.ipynb)
+
+2. Use in linux terminal:
+```
+conda env create -n autoMLenv -f environment.yml python=3.7
+source activate autoMLenv
+cd ./AutoML_package/src_autoML
+bash run_heart.sh
+```
 
 # Input dataset example
 All the example data is saved in [here](https://github.com/gengbo-genentech/Pharm-AutoML/tree/main/AutoML_package/src_autoML/examples/data)
@@ -35,18 +46,6 @@ more detail about cervical cancer dataset is [here](https://www.kaggle.com/lovea
 4. Classifier: all classifiers in sklearn, including support vector machine (SVC), k-nearest neighbors (KNN), random forest (RF), extra trees (ET), adaboost classifier (AB), gradient boosting classifier (GB), stochatic gradient descent classifier (SGD), xgboost classifier (XGboost)
 
 <div align=center><img src="/imgs/flow_chart_1.jpg" width="80%"></div>
-
-# Using Auto_ML library
-1. Use in jupyter notebook (available for all operating system):
-  classification task of UCI heart dataset [(notebook)](https://github.com/gengbo-genentech/Pharm-AutoML/tree/main/AutoML_package/AutoML_notebook_breast_imputation.ipynb)
-
-2. Use in linux terminal:
-```
-conda env create -n autoMLenv -f environment.yml python=3.7
-source activate autoMLenv
-cd ./AutoML_package/src_autoML
-bash run_heart.sh
-```
 
 # Arguments of PharmAutoML
 Please find code example in run_heart.sh or AutoML notebook.
