@@ -18,6 +18,8 @@ We developed a software to accelerate the establishment of state-of-the-art mach
 conda env create -n autoMLenv -f environment.yml python=3.7
 source activate autoMLenv
 cd ./AutoML_package/src_autoML
+# Create the result folder you wanted to save all results
+# please adjust the pharm-automl arguments in shell file (run_heart.sh), based on your need, more details are listed in the following section (arguments of pharm-automl)
 bash run_heart.sh
 ```
 
