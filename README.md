@@ -51,7 +51,7 @@ more detail about cervical cancer dataset is [here](https://www.kaggle.com/lovea
 Please find code example in run_heart.sh or AutoML notebook.
 * `data` [String] : The dataset need to be analyzed, data csv file directory.
 * `target` [String] :  Predicting target name.
-* `result_path` [String] : Password, which is used to log into database server.
+* `result_path` [String] : The path that you want to save your result, please create this result folder before using it.
 * `allowMissing` [Boolean] : Allow missing value in classifiers, if allowMissing is false, missing value will be imputed; if allowMissing is true, add_nan_label, impute_category_strategy, impute_numerical_strategy, PCA_featureSelection_orNot, PCA_feature_num will be ignored.
 * `drop_features` [String] : Features that need to remove, put none if there is no feature to be removed.
 * `categorical_features` [String] : Categorical variables require one hot encoding, put none if there is no ordinal features. 
