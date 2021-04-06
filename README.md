@@ -19,6 +19,7 @@ conda env create -n autoMLenv -f environment.yml python=3.7
 source activate autoMLenv
 cd ./AutoML_package/src_autoML
 # create the result folder you wanted to save all results
+mkdir examples/testing
 # please adjust the pharm-automl arguments in shell file (run_heart.sh), more details are listed in the following section (arguments of pharm-automl)
 bash run_heart.sh
 ```
