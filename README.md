@@ -52,7 +52,7 @@ more detail about cervical cancer dataset is [here](https://www.kaggle.com/lovea
 # Option 1: Use Auto_ML library
 1. Use in jupyter notebook (available for all operating system):
 
-  classification task of UCI cervical cancer dataset [(notebook)](https://github.roche.com/liug28/Pharm-AutoML/blob/master/AutoML_notebook_mlflow.ipynb)
+  classification task of UCI cervical cancer dataset [(notebook)](https://github.com/gengbo-genentech/Pharm-AutoML/blob/main/AutoML_notebook_mlflow.ipynb)
 
 2. Use in terminal (mac os):
 ```
@@ -72,8 +72,8 @@ Terminal will return a server uri (http), please open it in browser.
 <div align=center><img src="/imgs/mlflow_ui.png" width="100%"></div>
 
 # Arguments of API in Pharm-AutoML
-This [(section)](https://github.roche.com/liug28/Pharm-AutoML/blob/master/pharmAutoML/default_parameters.json) defines the default parameter used in function AutoML.
-Please find code example in run.sh or [(Jupyter notebook)](https://github.roche.com/liug28/Pharm-AutoML/blob/master/AutoML_notebook_mlflow.ipynb).
+This [(section)](https://github.com/gengbo-genentech/Pharm-AutoML/blob/main/pharmAutoML/default_parameters.json) defines the default parameter used in function AutoML.
+Please find code example in run.sh or [(Jupyter notebook)](https://github.com/gengbo-genentech/Pharm-AutoML/blob/main/AutoML_notebook_mlflow.ipynb).
 * `data` [String] : The dataset need to be analyzed, data csv file directory.
 * `target` [String] :  Predicting target name.
 * `result_path` [String] : The path that you want to save your result, please create this result folder before using it.
@@ -98,12 +98,3 @@ Please find code example in run.sh or [(Jupyter notebook)](https://github.roche.
 * `n_fold` [Integer] : Number of folds for cross validation. 
 * `n_repeats` [Integer] : If n_repeats is None, non-repeated n fold cross validation will be used, eg: n_repeats=8. 
 * `useDropColFeaImport` [Boolean] : If true, use drop column feature importances method.
-
-# Acknowledgement
-
-  * gRED, ClinPharm: James Lu, Dan Lu, Pascal Chanu, Jin Jin
-
-<div align=right><img src="/imgs/clinPharm.png" width="20%"></div>
-
----
-Built with <g-emoji class="g-emoji" alias="heart" fallback-src="https://assets.github.roche.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> by Gengbo Liu [(@liug28)](https://github.roche.com/liug28) in South San Francisco.
