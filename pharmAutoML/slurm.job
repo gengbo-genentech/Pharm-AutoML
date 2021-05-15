@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name "cervical_cancer_classification"
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time 24:00:00
+#SBATCH --qos=medium
+#SBATCH --array 100
+#SBATCH --export=ALL
+#SBATCH -N 1
+#SBATCH --output cervical_cancer_result/slurm-%A_%a.out
+bash run.sh

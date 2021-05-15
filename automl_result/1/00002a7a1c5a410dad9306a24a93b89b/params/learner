@@ -1,0 +1,5 @@
+SGDClassifier(alpha=0.08703328760667395, class_weight='balanced',
+              eta0=0.003622985263704631, l1_ratio=0.27712257990227496,
+              loss='modified_huber', max_iter=336164031.0, n_jobs=1,
+              penalty='l1', power_t=0.48570141641984765, random_state=0,
+              tol=0.006529434688817984, verbose=False)

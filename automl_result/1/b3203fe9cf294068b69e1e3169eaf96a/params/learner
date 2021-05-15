@@ -1,0 +1,3 @@
+LogisticRegression(C=0.7777691418203918, intercept_scaling=0.15842660999211708,
+                   random_state=0, solver='liblinear',
+                   tol=0.002277500296928366)

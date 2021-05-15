@@ -1,0 +1,4 @@
+artifact_location: ./automl_result/1
+experiment_id: '1'
+lifecycle_stage: active
+name: ./automl_result

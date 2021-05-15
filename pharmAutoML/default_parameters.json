@@ -1,0 +1,55 @@
+{
+"preprocessing_parameters":
+	{
+	"drop_features": [null],
+	"missing_threshold_rows": [0.2],
+	"missing_threshold_columns": [0.2],
+	"correlation_threshold": [0.98]
+    },
+"imputation_parameters":
+    {
+    "categorical_features": [null],
+    "check_diff_categorical_threshold": [0.1],
+    "impute_category_strategy": ["most_frequent"],
+	"impute_numerical_strategy": ["mean"],
+	"add_nan_label": [false]
+    },
+"feature_selection_parameters":
+    {
+    "feature_selection_method": ["shapRFEcv"]
+    },
+"train_test_split_parameters":
+    {
+    "tts_random_seed": [0],
+    "test_size": [0.2]
+    },
+"classifier_parameters":
+    {
+    "PCA": [false], 
+    "PCA_feature_num": [0], 
+    "clfs": 
+        {
+        "LRC":
+            {},
+        "SVC":
+            {},
+        "KNN":
+            {},
+        "RF":
+            {},
+        "ET":
+            {},
+        "GB":
+            {},
+        "SGD":
+            {},
+        "AB":
+            {},
+        "XGboost":
+            {}
+        },
+    "n_fold": [5],
+    "n_repeats": [null],
+    "useDropColFeaImport": [false]
+    }
+}
