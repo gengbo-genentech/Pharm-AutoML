@@ -1,0 +1,3 @@
+SVC(C=93.99925341898692, cache_size=512, degree=1, gamma=39.606830103484235,
+    max_iter=81238541.0, probability=True, random_state=0, shrinking=False,
+    tol=0.0012456877463379087)

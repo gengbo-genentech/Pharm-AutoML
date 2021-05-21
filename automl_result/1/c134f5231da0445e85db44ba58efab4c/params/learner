@@ -1,3 +1,0 @@
-SVC(C=2379.127045986855, cache_size=512, degree=1, gamma='auto',
-    kernel='linear', max_iter=724202204.0, probability=True, random_state=0,
-    shrinking=False, tol=0.00023337725333339528)

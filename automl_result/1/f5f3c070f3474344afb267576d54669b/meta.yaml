@@ -1,0 +1,15 @@
+artifact_uri: ./automl_result/1/f5f3c070f3474344afb267576d54669b/artifacts
+end_time: 1621582344097
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: f5f3c070f3474344afb267576d54669b
+run_uuid: f5f3c070f3474344afb267576d54669b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1621582287215
+status: 3
+tags: []
+user_id: liug28

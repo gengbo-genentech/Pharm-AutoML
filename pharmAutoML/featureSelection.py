@@ -52,7 +52,8 @@ class FeatureSelection():
         if clf_name == 'xgboost':
             xgboost_param_grid = {'n_estimators':[20,40,80], 
                                   'max_depth':[3,5,7],
-                                  'learning_rate':[0.1,0.01,0.001]}
+                                  'learning_rate':[0.1,0.01,0.001],
+                                  'eval_metric':['logloss']}
             return xgboost_param_grid
         elif clf_name == 'light_gbm':
             lightgbm_param_grid = {'n_estimators': [5, 7, 10], 

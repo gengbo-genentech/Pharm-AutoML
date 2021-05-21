@@ -2,7 +2,7 @@ import setuptools
 import os
 
 def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+    return open(os.path.join(os.path.dirname(__file__), fname), encoding="utf8").read()
 
 base_packages = [
     "scikit-learn>=0.22.1",
@@ -18,6 +18,8 @@ base_packages = [
     "mlflow>=1.14.0",
     "lightgbm>=2.3.1",
     "seaborn>=0.10.1",
+    "slicer>=0.0.7",
+    "google-api-python-client>=2.5.0",
 ]
 
 setuptools.setup(

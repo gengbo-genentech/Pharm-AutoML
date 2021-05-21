@@ -1,0 +1,4 @@
+GradientBoostingClassifier(learning_rate=0.051587478250069325,
+                           loss='exponential', max_depth=None,
+                           max_features=0.3159311741374937, n_estimators=40,
+                           random_state=0)

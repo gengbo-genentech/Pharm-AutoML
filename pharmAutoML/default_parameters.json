@@ -1,7 +1,7 @@
 {
 "preprocessing_parameters":
 	{
-	"drop_features": [null],
+	"drop_features": [],
 	"missing_threshold_rows": [0.2],
 	"missing_threshold_columns": [0.2],
 	"correlation_threshold": [0.98]
