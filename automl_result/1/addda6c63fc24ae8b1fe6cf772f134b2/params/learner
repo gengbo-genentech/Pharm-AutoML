@@ -1,0 +1,5 @@
+SGDClassifier(alpha=0.0026996388249574945, eta0=1.17223533785633e-05,
+              l1_ratio=0.4041744856744124, learning_rate='constant', loss='log',
+              max_iter=362858139.0, n_jobs=1, penalty='l1',
+              power_t=0.9398319736267923, random_state=0,
+              tol=0.007886653551079743, verbose=False)

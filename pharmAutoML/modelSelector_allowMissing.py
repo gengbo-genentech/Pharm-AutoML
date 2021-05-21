@@ -134,7 +134,7 @@ class ModelSelector_allowMissing():
             if fn_string == 'neg_log_loss':
                 return lambda target, pred: -log_loss(target, pred)
             elif fn_string == 'accuracy':
-                return lambda target, pred: -accuracy_score(target, pred)
+                return None
             elif num_unique_y == 2 and fn_string == 'roc_auc':
                 return lambda target, pred: -roc_auc_score(target, pred)
             elif num_unique_y == 2 and fn_string == 'f1':

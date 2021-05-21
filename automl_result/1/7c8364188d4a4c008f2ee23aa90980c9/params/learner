@@ -1,0 +1,2 @@
+ExtraTreesClassifier(max_features=None, min_samples_leaf=11, n_estimators=24,
+                     n_jobs=1, random_state=0, verbose=False)

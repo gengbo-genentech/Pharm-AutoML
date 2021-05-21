@@ -1,0 +1,6 @@
+XGBClassifier(colsample_bylevel=0.6106778873541244,
+              colsample_bytree=0.7739385214657901, gamma=0.051832574529415275,
+              learning_rate=0.10295672043876057, max_depth=4,
+              min_child_weight=3, missing=nan, n_estimators=3000,
+              reg_alpha=0.12282505756544837, reg_lambda=8.000362843081431,
+              seed=0, subsample=0.6495211355559323)

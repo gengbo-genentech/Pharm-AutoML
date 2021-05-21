@@ -15,11 +15,16 @@ base_packages = [
     "xgboost>=0.82",
     "probatus>=1.5.1",
     "hyperopt>=0.2.4",
-    "mlflow>=1.14.0",
+    "mlflow>=1.17.0",
     "lightgbm>=2.3.1",
     "seaborn>=0.10.1",
     "slicer>=0.0.7",
+    "google>=3.0.0",
+    "google-api-core>=1.28.0",
     "google-api-python-client>=2.5.0",
+    "google-auth>=1.30.0",
+    "google-auth-httplib2>=0.1.0",
+    "googleapis-common-protos>=1.53.0",
 ]
 
 setuptools.setup(

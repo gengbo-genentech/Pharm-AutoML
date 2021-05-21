@@ -1,3 +1,0 @@
-LogisticRegression(C=0.02415371365837865, intercept_scaling=0.16998663295189106,
-                   random_state=0, solver='liblinear',
-                   tol=0.008835143854955383)

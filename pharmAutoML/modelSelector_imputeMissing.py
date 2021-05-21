@@ -164,10 +164,11 @@ class ModelSelector_imputeMissing():
         algo = partial(tpe.suggest, n_startup_jobs=self.n_startup_jobs, n_EI_candidates=self.n_EI_candidates)
 
         def loss_function(fn_string, num_unique_y):
+        # loss function 'roc_auc' is not supported by windows os
             if fn_string == 'neg_log_loss':
                 return lambda target, pred: -log_loss(target, pred)
             elif fn_string == 'accuracy':
-                return lambda target, pred: -accuracy_score(target, pred)
+                return None
             elif num_unique_y == 2 and fn_string == 'roc_auc':
                 return lambda target, pred: -roc_auc_score(target, pred)
             elif num_unique_y == 2 and fn_string == 'f1':
