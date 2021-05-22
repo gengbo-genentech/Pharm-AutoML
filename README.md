@@ -9,7 +9,7 @@ Gengbo Liu, Dan Lu, and James Lu. "Pharm‐AutoML: an open‐source, end‐to‐
 # Get started
 To install the running environment
 ```
-conda env create -n autoMLenv -f environment.yml python=3.7
+conda env create -n autoMLenv python=3.7
 conda activate autoMLenv
 ```
 

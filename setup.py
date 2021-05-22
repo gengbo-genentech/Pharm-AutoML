@@ -25,6 +25,14 @@ base_packages = [
     "google-auth>=1.30.0",
     "google-auth-httplib2>=0.1.0",
     "googleapis-common-protos>=1.53.0",
+    "databricks_cli>=0.14.2",
+    "alembic<=1.4.1",
+    "docker>=4.0.0",
+    "gitpython>=2.1.0",
+    "prometheus-flask-exporter>=0.18.1",
+    "querystring-parser>=1.2.4",
+    "sqlparse>=0.4.1",
+    "waitress>=2.0.0",
 ]
 
 setuptools.setup(
